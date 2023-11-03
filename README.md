@@ -40,6 +40,6 @@ O código-fonte do backend da aplicação Finova está localizado em um reposit�
 
 Aqui está uma imagem da interface principal do aplicativo Finova:
 
-![Interface Principal](https://i.imgur.com/l41Nav7.png)
+![Interface Principal](https://i.imgur.com/pxPwWgy.png)
 
 
