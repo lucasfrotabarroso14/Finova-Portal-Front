@@ -56,8 +56,4 @@ Ao clicar no link "Leia Mais" no card de uma notícia, os usuários são redirec
 
 Este projeto está em desenvolvimento e ainda não está completo. Continuamos trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
 
-## Como Executar o Projeto
 
-Siga as etapas abaixo para executar o projeto localmente:
-
-1. Clone este repositório em sua máquina:
