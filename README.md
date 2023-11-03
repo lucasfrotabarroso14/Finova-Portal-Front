@@ -1,5 +1,7 @@
 # Finova - Portal de Notícias e Gestão de Carteira de Investimentos
 
+![Logo do Finova](https://i.imgur.com/RELNipx.png)
+
 ## Descrição
 
 O Finova é uma aplicação web que permite aos usuários acompanhar notícias financeiras e gerenciar seus investimentos em ativos financeiros. A aplicação oferece funcionalidades para registrar, acompanhar e analisar investimentos, fornecendo aos usuários uma visão abrangente de seu patrimônio e desempenho financeiro.
@@ -45,4 +47,13 @@ O código-fonte do backend da aplicação Finova está localizado em um reposit�
 Aqui está uma imagem da interface principal do aplicativo Finova:
 
 ![Interface Principal](https://i.imgur.com/pxPwWgy.png)
+
+## Redirecionamento para Sites de Notícias
+
+Ao clicar no link "Leia Mais" no card de uma notícia, os usuários são redirecionados para o site da notícia correspondente, onde podem obter mais informações detalhadas.
+
+## Estado do Projeto
+
+Este projeto está em desenvolvimento e ainda não está completo. Continuamos trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
+
 
