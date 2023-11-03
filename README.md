@@ -4,6 +4,8 @@
 
 O Finova é uma aplicação web que permite aos usuários acompanhar notícias financeiras e gerenciar seus investimentos em ativos financeiros. A aplicação oferece funcionalidades para registrar, acompanhar e analisar investimentos, fornecendo aos usuários uma visão abrangente de seu patrimônio e desempenho financeiro.
 
+**Nota:** Este aplicativo consome a API de notícias News API para fornecer informações financeiras atualizadas aos usuários.
+
 ## Funcionalidades Principais
 
 ### Registro de Ativos
@@ -36,4 +38,10 @@ O código-fonte do backend da aplicação Finova está localizado em um reposit�
 
 Aqui está uma imagem da interface principal do aplicativo Finova:
 
-![Interface Principal](https://i.imgur.com/pxPwWgy.png)
+![Interface Principal](https://i.imgur.com/l41Nav7.png)
+
+## Como Executar o Projeto
+
+Siga as etapas abaixo para executar o projeto localmente:
+
+1. Clone este repositório em sua máquina:
