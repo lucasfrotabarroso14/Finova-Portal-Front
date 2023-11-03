@@ -52,7 +52,7 @@ Aqui está uma imagem da interface principal do aplicativo Finova:
 
 Ao clicar no link "Leia Mais" no card de uma notícia, os usuários são redirecionados para o site da notícia correspondente, onde podem obter mais informações detalhadas.
 
-## Estado do Projeto
+## Status do Projeto
 
 Este projeto está em desenvolvimento e ainda não está completo. Continuamos trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
 
