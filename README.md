@@ -54,6 +54,6 @@ Ao clicar no link "Leia Mais" no card de uma notícia, os usuários são redirec
 
 ## Estado do Projeto
 
-Este projeto está em desenvolvimento e ainda não está completo. Continuamos trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
+Este projeto está em desenvolvimento e ainda não está completo. Ainda estou trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
 
 
