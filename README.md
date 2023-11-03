@@ -26,21 +26,21 @@ A aplicação calcula automaticamente o patrimônio total de cada usuário, soma
 
 Os usuários podem acompanhar o valor atual de seus ativos em tempo real, sempre que essa informação estiver disponível. Isso permite que os usuários tomem decisões informadas com base nas últimas informações do mercado.
 
-**Nota:** O backend deste aplicativo utiliza a biblioteca Yfinance para obter dados de ativos financeiros em tempo real.
+**Nota:** O [backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) deste aplicativo utiliza a biblioteca Yfinance para obter dados de ativos financeiros em tempo real.
 
 ## Objetivo do Frontend
 
-O frontend desta aplicação foi desenvolvido com o objetivo de consumir o backend construído com Flask. O frontend fornece uma interface amigável para os usuários gerenciarem seus investimentos e acessarem notícias financeiras em tempo real.
+O frontend desta aplicação foi desenvolvido com o objetivo de consumir o [backend construído com Flask](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend). O frontend fornece uma interface amigável para os usuários gerenciarem seus investimentos e acessarem notícias financeiras em tempo real.
 
 ## Tecnologias Utilizadas
 
 - Angular: O frontend da aplicação é desenvolvido com o framework Angular, proporcionando uma experiência de usuário interativa e responsiva.
 
-- Flask: O backend da aplicação é construído em Flask, um framework Python para desenvolvimento web.
+- Flask: O [backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) da aplicação é construído em Flask, um framework Python para desenvolvimento web.
 
-## Backend
+## [backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend)
 
-O código-fonte do backend da aplicação Finova está localizado em um repositório separado no GitHub. Você pode acessá-lo [aqui](https://meulink.com).
+O código-fonte do [backend da aplicação Finova](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) está localizado em um repositório separado no GitHub.
 
 ## Interface Principal
 
@@ -54,6 +54,10 @@ Ao clicar no link "Leia Mais" no card de uma notícia, os usuários são redirec
 
 ## Estado do Projeto
 
-Este projeto está em desenvolvimento e ainda não está completo. Ainda estou trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
+Este projeto está em desenvolvimento e ainda não está completo. Continuamos trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
 
+## Como Executar o Projeto
 
+Siga as etapas abaixo para executar o projeto localmente:
+
+1. Clone este repositório em sua máquina:
