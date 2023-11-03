@@ -1,22 +1,24 @@
 @import "primeicons/primeicons.css";
-.botao-menu{
-    background-color: red;
-}
-.sidebar {
-    flex-direction: column;
-    justify-content: center;
-  }
 
-  :host ::ng-deep {
-    .p-button{
-        background:  rgb(94, 12, 12) ;
-        border: none;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .p-button:hover{
-        background: black;
-        border: none;
+.botao-menu {
+  background-color: red;
+}
+
+.sidebar {
+  flex-direction: column;
+  justify-content: center;
+}
+
+:host ::ng-deep {
+  .p-button {
+    background: rgb(94, 12, 12);
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+
+    &:hover {
+      background: black;
+      border: none;
     }
   }
-  
+}
