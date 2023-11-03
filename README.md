@@ -46,8 +46,3 @@ Aqui está uma imagem da interface principal do aplicativo Finova:
 
 ![Interface Principal](https://i.imgur.com/pxPwWgy.png)
 
-## Como Executar o Projeto
-
-Siga as etapas abaixo para executar o projeto localmente:
-
-1. Clone este repositório em sua máquina:
