@@ -1,27 +1,39 @@
-# CrudAngularPrime
+# Finova - Portal de Notícias e Gestão de Carteira de Investimentos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.9.
+## Descrição
 
-## Development server
+O Finova é uma aplicação web que permite aos usuários acompanhar notícias financeiras e gerenciar seus investimentos em ativos financeiros. A aplicação oferece funcionalidades para registrar, acompanhar e analisar investimentos, fornecendo aos usuários uma visão abrangente de seu patrimônio e desempenho financeiro.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades Principais
 
-## Code scaffolding
+### Registro de Ativos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Os usuários podem adicionar e editar informações sobre os ativos em sua carteira, incluindo:
+- Símbolo do ativo
+- Quantidade
+- Data de aquisição
+- Custo unitário
 
-## Build
+### Patrimônio Total
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+A aplicação calcula automaticamente o patrimônio total de cada usuário, somando o custo total de seus ativos. Isso fornece aos usuários uma visão clara de seu patrimônio financeiro.
 
-## Running unit tests
+### Acompanhamento em Tempo Real
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Os usuários podem acompanhar o valor atual de seus ativos em tempo real, sempre que essa informação estiver disponível. Isso permite que os usuários tomem decisões informadas com base nas últimas informações do mercado.
 
-## Running end-to-end tests
+## Tecnologias Utilizadas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Angular: O frontend da aplicação é desenvolvido com o framework Angular, proporcionando uma experiência de usuário interativa e responsiva.
 
-## Further help
+- Flask: O backend da aplicação é construído em Flask, um framework Python para desenvolvimento web.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Backend
+
+O código-fonte do backend da aplicação Finova está localizado em um repositório separado no GitHub. Você pode acessá-lo [aqui](https://meulink.com).
+
+## Interface Principal
+
+Aqui está uma imagem da interface principal do aplicativo Finova:
+
+![Interface Principal](https://i.imgur.com/pxPwWgy.png)
