@@ -24,6 +24,8 @@ A aplicação calcula automaticamente o patrimônio total de cada usuário, soma
 
 Os usuários podem acompanhar o valor atual de seus ativos em tempo real, sempre que essa informação estiver disponível. Isso permite que os usuários tomem decisões informadas com base nas últimas informações do mercado.
 
+**Nota:** O backend deste aplicativo utiliza a biblioteca Yfinance para obter dados de ativos financeiros em tempo real.
+
 ## Tecnologias Utilizadas
 
 - Angular: O frontend da aplicação é desenvolvido com o framework Angular, proporcionando uma experiência de usuário interativa e responsiva.
@@ -40,8 +42,4 @@ Aqui está uma imagem da interface principal do aplicativo Finova:
 
 ![Interface Principal](https://i.imgur.com/l41Nav7.png)
 
-## Como Executar o Projeto
 
-Siga as etapas abaixo para executar o projeto localmente:
-
-1. Clone este repositório em sua máquina:
