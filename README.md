@@ -30,7 +30,7 @@ Os usuários podem acompanhar o valor atual de seus ativos em tempo real, sempre
 
 ## Objetivo do Frontend
 
-O frontend desta aplicação foi desenvolvido com o objetivo de consumir o [Backend construído com Flask](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend). O frontend fornece uma interface amigável para os usuários gerenciarem seus investimentos e acessarem notícias financeiras em tempo real.
+O frontend desta aplicação foi desenvolvido com o objetivo de consumir o [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) construído com Flask. O frontend fornece uma interface amigável para os usuários gerenciarem seus investimentos e acessarem notícias financeiras em tempo real.
 
 ## Tecnologias Utilizadas
 
@@ -40,7 +40,7 @@ O frontend desta aplicação foi desenvolvido com o objetivo de consumir o [Back
 
 ## [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend)
 
-O código-fonte do [Backend da aplicação Finova](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) está localizado em um repositório separado no GitHub.
+O código-fonte do [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) da aplicação Finova está localizado em um repositório separado no GitHub.
 
 ## Interface Principal
 
