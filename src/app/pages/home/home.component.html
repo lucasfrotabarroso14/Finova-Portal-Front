@@ -1,0 +1,15 @@
+
+
+<div class="custom-card-container">
+    <app-card class="custom-card" *ngFor="let article of paginatedArticles" [article]="article" [imagem]="getFontImage(article.author)"></app-card>
+  </div>
+  <div class="card flex justify-content-center">
+    <p-paginator (onPageChange)="onPageChange($event)" [first]="first" [rows]="itemsPerPage" [totalRecords]="newsArticles.length" [rowsPerPageOptions]="[6, 12, 18]"></p-paginator>
+    
+  </div>
+  <!-- <div class="grafico">
+    <app-chart></app-chart>
+  </div> -->
+  
+  <!-- Botões de navegação para avançar e retroceder na página -->
+  

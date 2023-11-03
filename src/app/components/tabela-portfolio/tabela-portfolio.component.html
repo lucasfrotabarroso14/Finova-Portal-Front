@@ -1,0 +1,24 @@
+<div class="card">
+    <p-table [value]="allPortfolios" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>user_id</th>
+                <th>quantidade</th>
+                <th>data_aquisicao</th>
+                <th>custo_unitario</th>
+                <th>symbol</th>
+                <th>custo_total</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-portfolio>
+            <tr>
+                <td>{{ portfolio.user_id }}</td>
+                <td>{{ portfolio.quantidade}}</td>
+                <td>{{ portfolio.data_aquisicao }}</td>
+                <td>{{ portfolio.custo_unitario }}</td>
+                <td>{{portfolio.symbol}}</td>
+                <td>{{portfolio.custo_total}}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>

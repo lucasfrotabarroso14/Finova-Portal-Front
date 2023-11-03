@@ -1,0 +1,13 @@
+.grafico{
+    justify-content: center;
+}
+.custom-card-container {
+    display: flex; /* Exibe os cards horizontalmente */
+    flex-wrap: wrap; /* Quebra a linha quando não couberem na largura da tela */
+    justify-content:space-around; /* Espaço entre os cards */
+    max-height: 50%;
+    column-count: 3;
+}
+// .custom-card{
+
+// }

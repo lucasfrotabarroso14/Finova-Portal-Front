@@ -1,0 +1,33 @@
+<!-- card.component.html -->
+<div class="custom-card">
+    <ng-container >
+        <p-card  class="news-card">
+            
+            <img src="{{imagem}}" alt="">
+            <h4>{{ article.title.split('-')[0] }}</h4>
+            <p>{{ article.description }}</p>
+            <div class="leia-mais">
+            <a [href]="article.url" target="_blank">Leia mais</a>
+            <p>{{article.publishedAt}}</p>
+
+            </div>
+            
+        </p-card>
+    </ng-container>
+</div>
+
+
+
+
+
+
+
+<!-- 
+<div class="card flex justify-content-center">
+    <ng-container>
+        <p-card [header]="article.title">
+            <p>{{ article.description }}</p>
+            <a href="{{ article.url }}" target="_blank">Leia mais</a>
+        </p-card>
+    </ng-container>
+</div> -->
