@@ -26,6 +26,10 @@ Os usuários podem acompanhar o valor atual de seus ativos em tempo real, sempre
 
 **Nota:** O backend deste aplicativo utiliza a biblioteca Yfinance para obter dados de ativos financeiros em tempo real.
 
+## Objetivo do Frontend
+
+O frontend desta aplicação foi desenvolvido com o objetivo de consumir o backend construído com Flask. O frontend fornece uma interface amigável para os usuários gerenciarem seus investimentos e acessarem notícias financeiras em tempo real.
+
 ## Tecnologias Utilizadas
 
 - Angular: O frontend da aplicação é desenvolvido com o framework Angular, proporcionando uma experiência de usuário interativa e responsiva.
@@ -42,4 +46,8 @@ Aqui está uma imagem da interface principal do aplicativo Finova:
 
 ![Interface Principal](https://i.imgur.com/pxPwWgy.png)
 
+## Como Executar o Projeto
 
+Siga as etapas abaixo para executar o projeto localmente:
+
+1. Clone este repositório em sua máquina:
