@@ -4,56 +4,39 @@
 
 ## Descrição
 
-O Finova é uma aplicação web que permite aos usuários acompanhar notícias financeiras e gerenciar seus investimentos em ativos financeiros. A aplicação oferece funcionalidades para registrar, acompanhar e analisar investimentos, fornecendo aos usuários uma visão abrangente de seu patrimônio e desempenho financeiro.
+O Finova é uma aplicação web interativa que oferece aos usuários a capacidade de acompanhar notícias financeiras e gerenciar seus investimentos em ativos financeiros. Com uma interface intuitiva e recursos robustos, os usuários podem registrar, acompanhar e analisar seus investimentos, obtendo uma visão completa de seu patrimônio e desempenho financeiro.
 
-**Nota:** Este aplicativo consome a API de notícias News API para fornecer informações financeiras atualizadas aos usuários.
+## Funcionalidades
 
-## Funcionalidades Principais
+- **Registro de Ativos**: Adicione e gerencie informações sobre ativos na carteira de investimentos.
+- **Visão do Patrimônio**: Veja o valor total do patrimônio calculado a partir dos ativos registrados.
+- **Acompanhamento em Tempo Real**: Monitore o valor atual dos ativos com dados atualizados em tempo real.
 
-### Registro de Ativos
+## Tecnologias
 
-Os usuários podem adicionar e editar informações sobre os ativos em sua carteira, incluindo:
-- Símbolo do ativo
-- Quantidade
-- Data de aquisição
-- Custo unitário
+- **Angular**: Framework robusto para desenvolvimento de interfaces ricas e dinâmicas.
+- **Flask**: Backend ágil e flexível, integrado para gerenciamento de dados e autenticação.
 
-### Patrimônio Total
+## Arquitetura
 
-A aplicação calcula automaticamente o patrimônio total de cada usuário, somando o custo total de seus ativos. Isso fornece aos usuários uma visão clara de seu patrimônio financeiro.
+O frontend consome serviços do [Backend Finova](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend), interagindo com uma API RESTful para realizar operações CRUD e autenticação via JWT.
 
-### Acompanhamento em Tempo Real
+## Interface
 
-Os usuários podem acompanhar o valor atual de seus ativos em tempo real, sempre que essa informação estiver disponível. Isso permite que os usuários tomem decisões informadas com base nas últimas informações do mercado.
-
-**Nota:** O [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) deste aplicativo utiliza a biblioteca Yfinance para obter dados de ativos financeiros em tempo real.
-
-## Objetivo do Frontend
-
-O frontend desta aplicação foi desenvolvido com o objetivo de consumir o [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) construído com Flask. O frontend fornece uma interface amigável para os usuários gerenciarem seus investimentos e acessarem notícias financeiras em tempo real.
-
-## Tecnologias Utilizadas
-
-- Angular: O frontend da aplicação é desenvolvido com o framework Angular, proporcionando uma experiência de usuário interativa e responsiva.
-
-- Flask: O [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) da aplicação é construído em Flask, um framework Python para desenvolvimento web.
-
-## [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend)
-
-O código-fonte do [Backend](https://github.com/lucasfrotabarroso14/Finova_Portal_Backend) da aplicação Finova está localizado em um repositório separado no GitHub.
-
-## Interface Principal
-
-Aqui está uma imagem da interface principal do aplicativo Finova:
+A interface do usuário é projetada para ser amigável e acessível, permitindo fácil navegação e interação com os dados financeiros.
 
 ![Interface Principal](https://i.imgur.com/pxPwWgy.png)
 
-## Redirecionamento para Sites de Notícias
+## Integração de Notícias
 
-Ao clicar no link "Leia Mais" no card de uma notícia, os usuários são redirecionados para o site da notícia correspondente, onde podem obter mais informações detalhadas.
+Integração com a News API para fornecer notícias financeiras atualizadas, com links diretos para os sites de notícias para informações detalhadas.
+
+## Contribuições
+
+Este projeto está em desenvolvimento ativo. Contribuições e feedback são bem-vindos para ajudar a melhorar e expandir as funcionalidades.
 
 ## Status do Projeto
 
-Este projeto está em desenvolvimento e ainda não está completo. Continuamos trabalhando para adicionar mais funcionalidades e aprimorar a experiência do usuário.
+O projeto está em fase de desenvolvimento contínuo, com novas funcionalidades sendo planejadas e implementadas regularmente.
 
 
